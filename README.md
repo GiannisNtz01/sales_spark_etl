@@ -44,15 +44,17 @@ MYSQL_DB=salesdb
 Run the ETL script to load data into MySQL: python src/load.py
 Run the visualization script: python src/visualize.py
 # 🖼️ Screenshots
-Sales per Product Line
+## Sales per Product Line
 ![Screenshot 1](screenshots/figure_1.png)
-Sales per Country
-
-Sales per Deal Size
+## Sales per Country
+![Screenshot 2](screenshots/figure_2.png)
+## Sales per Deal Size
+![Screenshot 3](screenshots/figure_3.png)
 
 # ⚠️ Notes
 The .env file should not be pushed to GitHub. It is included in .gitignore.
 Make sure the MySQL connector JAR is correctly referenced in your PySpark scripts.
+
 
 
 
